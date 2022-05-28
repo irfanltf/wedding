@@ -701,11 +701,11 @@
 				</a>
 			</li>
 			<li class="nav-item">
-				<a href="#galeri" class="nav-link pt-0 text-dark">
+				<a href="#gift" class="nav-link pt-0 text-dark">
 					<div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-image" viewBox="0 0 16 16">
 							<path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
 							<path d="M2.002 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2h-12zm12 1a1 1 0 0 1 1 1v6.5l-3.777-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12V3a1 1 0 0 1 1-1h12z"></path>
-						</svg></div>Galeri
+						</svg></div>Gift
 				</a>
 			</li>
 			<li class="nav-item">
@@ -740,9 +740,9 @@
 							<div style="font-size:18px;width:100%;font-weight: 600;"></div>
 						</h3>
 
-						<!-- <button class="btn btn-primary close-popup btnColor" style="border-radius: 20px 20px 20px 20px;background: #fb6262"><i class="fa fa-envelope"></i> Buka Undangan</button> -->
+						<!-- <button class="btn btn-primary close-popup btnColor" style="border-radius: 20px 20px 20px 20px;background: #fb6262"><i class="fpa fa-envelope"></i> Buka Undangan</button> -->
 
-
+						<p><?= $penerima; ?></p>
 						<button class="btn btnColor" style="border-radius: 20px 20px 20px 20px;" onclick="openInvitation();"><i class="fa fa-envelope"></i> Buka Undangan</button>
 					</div>
 
@@ -920,7 +920,7 @@
 										<div class="icon-content mt-3 text-center">
 											<h2 class="dlab-title font-weight-bold fontMempelai" style="font-size: 30px;line-height: 35px;margin-bottom: 5px;font-weight: 400!important">Irma Suryani, S. Pd</h2>
 											<img src="webview/template/front/div/wavy-sfe-05.png" style="width: 180px;margin-bottom: 10px;">
-											<p>Binti Iskandar Gelar Bating Ulangan<br>
+											<p>Binti Iskandar,S.Pd. Gelar Bating Ulangan<br>
 												Kampung Bumi Agung<br>
 												Kabupaten Way Kanan</p>
 
@@ -1089,11 +1089,11 @@
 
 
 
-										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15904.98760012125!2d104.6444811822993!3d-4.727122995066366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3897fc83750a55%3A0x2050876efaffceed!2sPampang%20Tangguk%20Jaya%2C%20Sungkai%20Tengah%2C%20North%20Lampung%20Regency%2C%20Lampung!5e0!3m2!1sen!2sid!4v1653721115506!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+										<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.231571708321!2d104.63738991476244!3d-4.729793296564755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x69b283584047384e!2zNMKwNDMnNDcuMyJTIDEwNMKwMzgnMjIuNSJF!5e0!3m2!1sen!2sid!4v1653737202706!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 									</div>
 
 									<div class="text-center mt-4">
-										<a href="https://www.google.com/maps/place/Pampang+Tangguk+Jaya,+Sungkai+Tengah,+North+Lampung+Regency,+Lampung/@-4.727123,104.6444812,15z/data=!3m1!4b1!4m5!3m4!1s0x2e3897fc83750a55:0x2050876efaffceed!8m2!3d-4.7303671!4d104.6412925" class="btn btn-outline btnColor" style="border-radius: 30px;border:0px;" target="_blank"><i class="fa fa-location-arrow"></i> Lihat Lokasi Acara</a>
+										<a href="https://www.google.com/maps/place/4%C2%B043'47.3%22S+104%C2%B038'22.5%22E/@-4.7297933,104.6373899,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x69b283584047384e!8m2!3d-4.7297933!4d104.6395786?hl=en" class="btn btn-outline btnColor" style="border-radius: 30px;border:0px;" target="_blank"><i class="fa fa-location-arrow"></i> Lihat Lokasi Acara</a>
 									</div>
 
 								</div>
@@ -1245,7 +1245,7 @@
 
 
 				<!-- business info -->
-				<div id="ucapan" class="section-full bg-main content-inner py-0">
+				<div id="gift" class="section-full bg-main content-inner py-0">
 					<div class="container py-5 my-0 wow fadeInUp themeWeb" data-wow-duration="2s" data-wow-delay="0.2s">
 
 						<!-- <div class="row justify-content-center">
@@ -1276,7 +1276,7 @@
 
 											<h6 class="mb-3">
 												564901012095535<br>
-												a/n Irma Suryani
+												Irma Suryani
 											</h6>
 
 											<div class="text-center mb-4">
@@ -1327,9 +1327,11 @@
 								<div class="col-lg-8 col-md-8 mb-5">
 									<h2 class="text-center" style="font-size: 35px;">Kirim Ucapan &amp; Doa Restu</h2>
 									<div class="business-solution">
-
+										<form>
+											
 										<input type="text" name="nama_komentar_undangan" id="nama_komentar_undangan" class="form-control" placeholder="Nama lengkap..." style="border: 1px solid #CCC;font-size: 1em;overflow-y: auto;overflow-x: hidden;margin-bottom: 10px;">
-
+									
+										</form>
 										<div id="comments-container">
 
 										</div>
@@ -1822,7 +1824,7 @@ a/n Irma Suryani
 					content: 'isi_komentar_undangan',
 					fullname: 'nama_komentar_undangan',
 					profileURL: 'profile_url',
-					profilePictureURL: 'gambar',
+					profilePictureURL: '<?= base_url('webview/template/front/img/') ?>'+'gambar',
 					isNew: 'is_new',
 					createdByAdmin: 'created_by_admin',
 					// createdByCurrentUser: 'id_user',
@@ -1839,7 +1841,7 @@ a/n Irma Suryani
 					$.ajax({
 						type: 'get',
 						// url: url_get,
-						url: 'https://app.unnik.id/komentar/getKomentar/60',
+						url: '<?= base_url('welcome/data_comment') ?>',
 						dataType: 'json',
 						// processData: false, 
 						// contentType: false,
@@ -1862,13 +1864,14 @@ a/n Irma Suryani
 					// }
 
 					commentJSON.namaKomentar = $("#nama_komentar_undangan").val();
+		
 
 					// console.log(commentJSON);
 					// console.log(val);
 					$.ajax({
 						type: 'post',
 						// url: url_post,
-						url: 'https://app.unnik.id/komentar/postKomentar/60',
+						url: '<?= base_url('welcome/post_data_comment') ?>',
 						data: commentJSON,
 						// data: val,
 						dataType: 'json',
@@ -1878,41 +1881,19 @@ a/n Irma Suryani
 						success: function(comment) {
 							$("#nama_komentar_undangan").val("");
 							// console.log(comment);
-							success(comment)
+							success(comment);
 						},
-						error: error
+						error: error,
+							
 					});
+					document.location.reload(true)
 					// console.log(val);
 				},
 
-				putComment: function(commentJSON, success, error) {
-					$.ajax({
-						type: 'post',
-						// type: 'put',
-						// url: url_put + commentJSON.id_komentar,
-						url: 'https://app.unnik.id/komentar/putKomentar/' + commentJSON.id_komentar_undangan,
-						data: commentJSON,
-						dataType: 'json',
-						success: function(comment) {
-							// console.log(comment);
-							success(comment)
-						},
-						error: error
-					});
-				},
 
-				deleteComment: function(commentJSON, success, error) {
-					$.ajax({
-						type: 'delete',
-						url: 'https://app.unnik.id/komentar/deleteKomentar/' + commentJSON.id_komentar_undangan,
-						success: success,
-						error: error
-					});
-					// console.log(success);
-				},
 
 				// Strings
-				textareaPlaceholderText: "Tulis ucapan & doa restu...",
+				textareaPlaceholderText: "Tulis ucapan & doa restu....",
 				newestText: 'Ucapan Terbaru',
 				oldestText: 'Paling Lama',
 				// popularText: '',
